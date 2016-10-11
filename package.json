@@ -1,0 +1,19 @@
+{
+  "name": "sugar-string-to-ascii",
+  "version": "1.0.0",
+  "description": "Sugar plugin that returns a unicode string with special characters normalized to ASCII.",
+  "main": "sugar-string-to-ascii.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewplummer/sugar-string-to-ascii.git"
+  },
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha"
+  },
+  "author": "Andrew Plummer <plummer.andrew@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^3.1.0",
+    "sugar-core": "^2.0.0"
+  }
+}
